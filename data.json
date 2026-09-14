@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-14T19:47:37.237Z",
+  "generatedAt": "2026-09-14T21:23:18.302Z",
   "totals": {
     "companies": 95,
-    "activeJobs": 73169,
-    "healthy": 56,
-    "warning": 20,
-    "broken": 19,
-    "verifiedCatalogues": 66,
-    "missingDescriptions": 1620,
+    "activeJobs": 72820,
+    "healthy": 58,
+    "warning": 19,
+    "broken": 18,
+    "verifiedCatalogues": 67,
+    "missingDescriptions": 1116,
     "missingLocations": 557,
-    "avgCriticalCompleteness": 96.8
+    "avgCriticalCompleteness": 97
   },
   "companies": [
     {
@@ -531,43 +531,6 @@
       "salary": 1659
     },
     {
-      "sourceId": "f2d03b09-589f-404e-b962-9ce0b513e57b",
-      "company": "Google",
-      "domain": "google.com",
-      "platform": "google",
-      "sourceStatus": "failed",
-      "validationStatus": "unknown",
-      "validationConfidence": null,
-      "sourceJobCount": null,
-      "lastJobCount": 0,
-      "lastScanDurationMs": 90000,
-      "consecutiveFailures": 1,
-      "lastScanPhase": "provider_fetch",
-      "lastDiagnostic": null,
-      "lastScannedAt": "2026-09-14T16:22:08.364+00:00",
-      "lastSuccessAt": "2026-09-13T23:58:07.864+00:00",
-      "lastError": null,
-      "careerUrl": "https://www.google.com/about/careers/applications/jobs/results",
-      "criticalCompleteness": 100,
-      "optionalCompleteness": 0,
-      "dataQuality": 80,
-      "missingDescriptions": 0,
-      "missingLocations": 0,
-      "enrichmentPriority": 100,
-      "health": "broken",
-      "jobs": 3552,
-      "title": 3552,
-      "externalId": 3552,
-      "validUrl": 3552,
-      "description": 3552,
-      "fullDescription": 3269,
-      "location": 3552,
-      "postedDate": 0,
-      "employmentType": 0,
-      "remote": 0,
-      "salary": 0
-    },
-    {
       "sourceId": "6418b4e9-075a-4b9c-b32d-8b66a0d25e78",
       "company": "Barclays",
       "domain": "barclays.com",
@@ -713,43 +676,6 @@
       "postedDate": 0,
       "employmentType": 1,
       "remote": 1,
-      "salary": 0
-    },
-    {
-      "sourceId": "4011fa48-3fb9-4f09-821a-a7509509205a",
-      "company": "Capgemini",
-      "domain": "capgemini.com",
-      "platform": "successfactors",
-      "sourceStatus": "working",
-      "validationStatus": "verified",
-      "validationConfidence": 1,
-      "sourceJobCount": 469,
-      "lastJobCount": 469,
-      "lastScanDurationMs": 13521,
-      "consecutiveFailures": 0,
-      "lastScanPhase": "completed",
-      "lastDiagnostic": null,
-      "lastScannedAt": "2026-09-14T07:31:22.037+00:00",
-      "lastSuccessAt": "2026-09-14T07:31:22.037+00:00",
-      "lastError": null,
-      "careerUrl": "https://jobs.capgemini.com/search/jobs",
-      "criticalCompleteness": 80,
-      "optionalCompleteness": 50,
-      "dataQuality": 74,
-      "missingDescriptions": 505,
-      "missingLocations": 0,
-      "enrichmentPriority": 2525,
-      "health": "warning",
-      "jobs": 505,
-      "title": 505,
-      "externalId": 505,
-      "validUrl": 505,
-      "description": 0,
-      "fullDescription": 0,
-      "location": 505,
-      "postedDate": 0,
-      "employmentType": 505,
-      "remote": 505,
       "salary": 0
     },
     {
@@ -1715,6 +1641,43 @@
       "salary": 0
     },
     {
+      "sourceId": "4011fa48-3fb9-4f09-821a-a7509509205a",
+      "company": "Capgemini",
+      "domain": "capgemini.com",
+      "platform": "successfactors",
+      "sourceStatus": "working",
+      "validationStatus": "verified",
+      "validationConfidence": 1,
+      "sourceJobCount": 472,
+      "lastJobCount": 472,
+      "lastScanDurationMs": 39861,
+      "consecutiveFailures": 0,
+      "lastScanPhase": "completed",
+      "lastDiagnostic": null,
+      "lastScannedAt": "2026-09-14T21:13:39.577+00:00",
+      "lastSuccessAt": "2026-09-14T21:13:39.577+00:00",
+      "lastError": null,
+      "careerUrl": "https://jobs.capgemini.com/search/jobs",
+      "criticalCompleteness": 100,
+      "optionalCompleteness": 75.5,
+      "dataQuality": 95.1,
+      "missingDescriptions": 1,
+      "missingLocations": 0,
+      "enrichmentPriority": 5,
+      "health": "healthy",
+      "jobs": 472,
+      "title": 472,
+      "externalId": 472,
+      "validUrl": 472,
+      "description": 471,
+      "fullDescription": 471,
+      "location": 472,
+      "postedDate": 471,
+      "employmentType": 472,
+      "remote": 472,
+      "salary": 10
+    },
+    {
       "sourceId": "b7af0fb4-93fd-4bce-8829-6423f5c6dced",
       "company": "ISG",
       "domain": "isginc.com",
@@ -2009,6 +1972,43 @@
       "employmentType": 0,
       "remote": 0,
       "salary": 54
+    },
+    {
+      "sourceId": "f2d03b09-589f-404e-b962-9ce0b513e57b",
+      "company": "Google",
+      "domain": "google.com",
+      "platform": "google",
+      "sourceStatus": "working",
+      "validationStatus": "verified",
+      "validationConfidence": 1,
+      "sourceJobCount": 3236,
+      "lastJobCount": 3236,
+      "lastScanDurationMs": 1122128,
+      "consecutiveFailures": 0,
+      "lastScanPhase": "completed",
+      "lastDiagnostic": null,
+      "lastScannedAt": "2026-09-14T21:06:20.353+00:00",
+      "lastSuccessAt": "2026-09-14T21:06:20.353+00:00",
+      "lastError": null,
+      "careerUrl": "https://www.google.com/about/careers/applications/jobs/results/",
+      "criticalCompleteness": 100,
+      "optionalCompleteness": 15.4,
+      "dataQuality": 83.1,
+      "missingDescriptions": 0,
+      "missingLocations": 0,
+      "enrichmentPriority": 0,
+      "health": "healthy",
+      "jobs": 3236,
+      "title": 3236,
+      "externalId": 3236,
+      "validUrl": 3236,
+      "description": 3236,
+      "fullDescription": 3236,
+      "location": 3236,
+      "postedDate": 0,
+      "employmentType": 111,
+      "remote": 0,
+      "salary": 1877
     },
     {
       "sourceId": "dde3fe40-1446-4538-b9a3-f641fb41bcde",
@@ -3544,8 +3544,8 @@
     {
       "platform": "successfactors",
       "companies": 7,
-      "jobs": 2240,
-      "healthy": 3
+      "jobs": 2207,
+      "healthy": 4
     },
     {
       "platform": "nextjs",
@@ -3598,8 +3598,8 @@
     {
       "platform": "google",
       "companies": 2,
-      "jobs": 7022,
-      "healthy": 0
+      "jobs": 6706,
+      "healthy": 1
     },
     {
       "platform": "phenom",
@@ -3813,14 +3813,21 @@
     },
     {
       "date": "2026-09-14",
-      "scans": 71,
-      "successful": 45,
-      "failed": 17,
-      "jobsSaved": 19673,
-      "avgDurationMs": 145436
+      "scans": 79,
+      "successful": 52,
+      "failed": 18,
+      "jobsSaved": 34075,
+      "avgDurationMs": 168016
     }
   ],
   "recentFailures": [
+    {
+      "company": "Google",
+      "platform": "google",
+      "at": "2026-09-14T20:30:50.863+00:00",
+      "phase": "persistence",
+      "error": "Scan failed"
+    },
     {
       "company": "Balfour Beatty",
       "platform": "balfourbeatty",
@@ -3952,13 +3959,6 @@
       "platform": "taleo",
       "at": "2026-09-13T22:48:18.956+00:00",
       "phase": "persistence",
-      "error": "Scan failed"
-    },
-    {
-      "company": "WSP",
-      "platform": "directemployers",
-      "at": "2026-09-13T18:14:27.644+00:00",
-      "phase": "provider_fetch",
       "error": "Scan failed"
     }
   ]
