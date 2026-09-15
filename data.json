@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-15T14:58:31.029Z",
+  "generatedAt": "2026-09-15T16:32:21.749Z",
   "totals": {
-    "companies": 100,
-    "activeJobs": 72223,
-    "healthy": 70,
+    "companies": 101,
+    "activeJobs": 71904,
+    "healthy": 71,
     "warning": 18,
     "broken": 12,
-    "verifiedCatalogues": 75,
-    "missingDescriptions": 1627,
+    "verifiedCatalogues": 76,
+    "missingDescriptions": 1626,
     "missingLocations": 1503,
-    "avgCriticalCompleteness": 94.5
+    "avgCriticalCompleteness": 93.6
   },
   "companies": [
     {
@@ -22,11 +22,11 @@
       "validationConfidence": null,
       "sourceJobCount": null,
       "lastJobCount": 0,
-      "lastScanDurationMs": 87954,
-      "consecutiveFailures": 6,
+      "lastScanDurationMs": 312268,
+      "consecutiveFailures": 7,
       "lastScanPhase": "provider_fetch",
       "lastDiagnostic": null,
-      "lastScannedAt": "2026-09-15T14:36:41.857+00:00",
+      "lastScannedAt": "2026-09-15T14:56:37.606+00:00",
       "lastSuccessAt": "2026-09-15T11:41:51.423+00:00",
       "lastError": null,
       "careerUrl": "https://careers.ibm.com/en_US/careers/SearchJobs/",
@@ -179,23 +179,23 @@
       "lastError": null,
       "careerUrl": "https://www.jpmorganchase.com/careers?redirect=careers_jpm",
       "criticalCompleteness": 100,
-      "optionalCompleteness": 50,
+      "optionalCompleteness": 50.2,
       "dataQuality": 90,
-      "missingDescriptions": 4,
+      "missingDescriptions": 3,
       "missingLocations": 0,
-      "enrichmentPriority": 120,
+      "enrichmentPriority": 115,
       "health": "broken",
-      "jobs": 7290,
-      "title": 7290,
-      "externalId": 7290,
-      "validUrl": 7290,
-      "description": 7286,
-      "fullDescription": 623,
-      "location": 7290,
-      "postedDate": 7290,
+      "jobs": 7283,
+      "title": 7283,
+      "externalId": 7283,
+      "validUrl": 7283,
+      "description": 7280,
+      "fullDescription": 2197,
+      "location": 7283,
+      "postedDate": 7283,
       "employmentType": 0,
-      "remote": 7290,
-      "salary": 5
+      "remote": 7283,
+      "salary": 44
     },
     {
       "sourceId": "caa2ae2f-acf6-461e-8aba-67fedf6c5295",
@@ -270,43 +270,6 @@
       "employmentType": 0,
       "remote": 0,
       "salary": 0
-    },
-    {
-      "sourceId": "163906b9-4bca-4c2d-a3dc-7e5c2243c713",
-      "company": "WSP",
-      "domain": "wsp.com",
-      "platform": "directemployers",
-      "sourceStatus": "failed",
-      "validationStatus": "unknown",
-      "validationConfidence": null,
-      "sourceJobCount": null,
-      "lastJobCount": 0,
-      "lastScanDurationMs": 474066,
-      "consecutiveFailures": 5,
-      "lastScanPhase": "persistence",
-      "lastDiagnostic": null,
-      "lastScannedAt": "2026-09-15T13:16:59.116+00:00",
-      "lastSuccessAt": "2026-09-13T18:17:47.842+00:00",
-      "lastError": null,
-      "careerUrl": "https://wspgroup.dejobs.org/jobs/",
-      "criticalCompleteness": 100,
-      "optionalCompleteness": 33.7,
-      "dataQuality": 86.7,
-      "missingDescriptions": 0,
-      "missingLocations": 0,
-      "enrichmentPriority": 100,
-      "health": "broken",
-      "jobs": 9552,
-      "title": 9552,
-      "externalId": 9552,
-      "validUrl": 9552,
-      "description": 9552,
-      "fullDescription": 9552,
-      "location": 9552,
-      "postedDate": 9551,
-      "employmentType": 0,
-      "remote": 1,
-      "salary": 3337
     },
     {
       "sourceId": "76381384-aeed-4d2d-a33b-52fa679abf99",
@@ -437,6 +400,43 @@
       "lastSuccessAt": "2026-09-15T07:56:48.435+00:00",
       "lastError": null,
       "careerUrl": "https://www.ntt.com/careers/",
+      "criticalCompleteness": 0,
+      "optionalCompleteness": 0,
+      "dataQuality": 0,
+      "missingDescriptions": 0,
+      "missingLocations": 0,
+      "enrichmentPriority": 100,
+      "health": "broken",
+      "jobs": 0,
+      "title": 0,
+      "externalId": 0,
+      "validUrl": 0,
+      "description": 0,
+      "fullDescription": 0,
+      "location": 0,
+      "postedDate": 0,
+      "employmentType": 0,
+      "remote": 0,
+      "salary": 0
+    },
+    {
+      "sourceId": "c56de531-1cf7-47a6-ae6d-ed7434fa7746",
+      "company": "RPS Group",
+      "domain": "rpsgroup.com",
+      "platform": "unknown",
+      "sourceStatus": "failed",
+      "validationStatus": "unknown",
+      "validationConfidence": null,
+      "sourceJobCount": null,
+      "lastJobCount": 0,
+      "lastScanDurationMs": 113047,
+      "consecutiveFailures": 1,
+      "lastScanPhase": "provider_fetch",
+      "lastDiagnostic": null,
+      "lastScannedAt": "2026-09-15T15:27:06.411+00:00",
+      "lastSuccessAt": null,
+      "lastError": null,
+      "careerUrl": null,
       "criticalCompleteness": 0,
       "optionalCompleteness": 0,
       "dataQuality": 0,
@@ -1380,6 +1380,43 @@
       "employmentType": 0,
       "remote": 0,
       "salary": 0
+    },
+    {
+      "sourceId": "163906b9-4bca-4c2d-a3dc-7e5c2243c713",
+      "company": "WSP",
+      "domain": "wsp.com",
+      "platform": "directemployers",
+      "sourceStatus": "working",
+      "validationStatus": "verified",
+      "validationConfidence": 1,
+      "sourceJobCount": 9240,
+      "lastJobCount": 9240,
+      "lastScanDurationMs": 548546,
+      "consecutiveFailures": 0,
+      "lastScanPhase": "completed",
+      "lastDiagnostic": null,
+      "lastScannedAt": "2026-09-15T15:25:07.342+00:00",
+      "lastSuccessAt": "2026-09-15T15:25:07.342+00:00",
+      "lastError": null,
+      "careerUrl": "https://wspgroup.dejobs.org/jobs/",
+      "criticalCompleteness": 100,
+      "optionalCompleteness": 33.8,
+      "dataQuality": 86.8,
+      "missingDescriptions": 0,
+      "missingLocations": 0,
+      "enrichmentPriority": 0,
+      "health": "healthy",
+      "jobs": 9240,
+      "title": 9240,
+      "externalId": 9240,
+      "validUrl": 9240,
+      "description": 9240,
+      "fullDescription": 9240,
+      "location": 9240,
+      "postedDate": 9240,
+      "employmentType": 0,
+      "remote": 0,
+      "salary": 3269
     },
     {
       "sourceId": "fa7c133c-cb0a-4799-bffe-44e655084a51",
@@ -3753,7 +3790,7 @@
     {
       "platform": "oracle",
       "companies": 4,
-      "jobs": 7332,
+      "jobs": 7325,
       "healthy": 3
     },
     {
@@ -3771,8 +3808,8 @@
     {
       "platform": "directemployers",
       "companies": 3,
-      "jobs": 21722,
-      "healthy": 1
+      "jobs": 21410,
+      "healthy": 2
     },
     {
       "platform": "eightfold",
@@ -3797,6 +3834,12 @@
       "companies": 2,
       "jobs": 71,
       "healthy": 2
+    },
+    {
+      "platform": "unknown",
+      "companies": 2,
+      "jobs": 0,
+      "healthy": 0
     },
     {
       "platform": "google",
@@ -3965,12 +4008,6 @@
       "companies": 1,
       "jobs": 4,
       "healthy": 1
-    },
-    {
-      "platform": "unknown",
-      "companies": 1,
-      "jobs": 0,
-      "healthy": 0
     }
   ],
   "scanTrends": [
@@ -4024,14 +4061,28 @@
     },
     {
       "date": "2026-09-15",
-      "scans": 182,
-      "successful": 113,
-      "failed": 63,
-      "jobsSaved": 57236,
-      "avgDurationMs": 206106
+      "scans": 185,
+      "successful": 114,
+      "failed": 65,
+      "jobsSaved": 66476,
+      "avgDurationMs": 208028
     }
   ],
   "recentFailures": [
+    {
+      "company": "RPS Group",
+      "platform": "unknown",
+      "at": "2026-09-15T15:27:00.905+00:00",
+      "phase": "provider_fetch",
+      "error": "Scan failed"
+    },
+    {
+      "company": "IBM",
+      "platform": "ibm",
+      "at": "2026-09-15T14:56:37.344+00:00",
+      "phase": "provider_fetch",
+      "error": "Scan failed"
+    },
     {
       "company": "IBM",
       "platform": "ibm",
@@ -4155,20 +4206,6 @@
       "company": "Equinix",
       "platform": "equinix",
       "at": "2026-09-15T07:55:18.09+00:00",
-      "phase": "persistence",
-      "error": "Scan failed"
-    },
-    {
-      "company": "Balfour Beatty",
-      "platform": "balfourbeatty",
-      "at": "2026-09-15T07:54:11.814+00:00",
-      "phase": "persistence",
-      "error": "Scan failed"
-    },
-    {
-      "company": "Laing O'Rourke",
-      "platform": "custom",
-      "at": "2026-09-15T07:53:57.375+00:00",
       "phase": "persistence",
       "error": "Scan failed"
     }
