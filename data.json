@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-16T08:52:29.739Z",
+  "generatedAt": "2026-09-16T09:59:44.896Z",
   "totals": {
-    "companies": 124,
-    "activeJobs": 82657,
-    "healthy": 85,
-    "warning": 21,
+    "companies": 126,
+    "activeJobs": 83310,
+    "healthy": 86,
+    "warning": 22,
     "broken": 18,
-    "verifiedCatalogues": 90,
+    "verifiedCatalogues": 91,
     "missingDescriptions": 660,
     "missingLocations": 444,
-    "avgCriticalCompleteness": 90.3
+    "avgCriticalCompleteness": 90.4
   },
   "companies": [
     {
@@ -1419,6 +1419,43 @@
       "salary": 1
     },
     {
+      "sourceId": "23dae0ad-c31b-45b4-a8f3-1c3dfc22bfa2",
+      "company": "QinetiQ",
+      "domain": "qinetiq.com",
+      "platform": "successfactors",
+      "sourceStatus": "working",
+      "validationStatus": "unknown",
+      "validationConfidence": null,
+      "sourceJobCount": null,
+      "lastJobCount": 6,
+      "lastScanDurationMs": 52156,
+      "consecutiveFailures": 0,
+      "lastScanPhase": "completed",
+      "lastDiagnostic": null,
+      "lastScannedAt": "2026-09-16T08:56:41.504+00:00",
+      "lastSuccessAt": "2026-09-16T08:56:41.504+00:00",
+      "lastError": null,
+      "careerUrl": "https://careers.qinetiq.com/",
+      "criticalCompleteness": 100,
+      "optionalCompleteness": 0,
+      "dataQuality": 80,
+      "missingDescriptions": 0,
+      "missingLocations": 0,
+      "enrichmentPriority": 100,
+      "health": "warning",
+      "jobs": 6,
+      "title": 6,
+      "externalId": 6,
+      "validUrl": 6,
+      "description": 6,
+      "fullDescription": 6,
+      "location": 6,
+      "postedDate": 0,
+      "employmentType": 0,
+      "remote": 0,
+      "salary": 0
+    },
+    {
       "sourceId": "54e64fbc-2ce5-444d-85aa-56a701087a3f",
       "company": "Elastic",
       "domain": "elastic.co",
@@ -2638,6 +2675,43 @@
       "employmentType": 653,
       "remote": 0,
       "salary": 1
+    },
+    {
+      "sourceId": "e0766ecd-77f5-4531-86a2-029caf78c25e",
+      "company": "Stripe",
+      "domain": "stripe.com",
+      "platform": "greenhouse",
+      "sourceStatus": "working",
+      "validationStatus": "verified",
+      "validationConfidence": 1,
+      "sourceJobCount": 647,
+      "lastJobCount": 647,
+      "lastScanDurationMs": 12220,
+      "consecutiveFailures": 0,
+      "lastScanPhase": "completed",
+      "lastDiagnostic": null,
+      "lastScannedAt": "2026-09-16T08:55:48.968+00:00",
+      "lastSuccessAt": "2026-09-16T08:55:48.968+00:00",
+      "lastError": null,
+      "careerUrl": "https://job-boards.greenhouse.io/stripe",
+      "criticalCompleteness": 100,
+      "optionalCompleteness": 25.1,
+      "dataQuality": 85,
+      "missingDescriptions": 0,
+      "missingLocations": 0,
+      "enrichmentPriority": 0,
+      "health": "healthy",
+      "jobs": 647,
+      "title": 647,
+      "externalId": 647,
+      "validUrl": 647,
+      "description": 647,
+      "fullDescription": 647,
+      "location": 647,
+      "postedDate": 625,
+      "employmentType": 0,
+      "remote": 0,
+      "salary": 24
     },
     {
       "sourceId": "0cc59d08-acf4-4bcb-871f-4afdb11af9cb",
@@ -4616,14 +4690,14 @@
     },
     {
       "platform": "greenhouse",
-      "companies": 12,
-      "jobs": 2521,
-      "healthy": 12
+      "companies": 13,
+      "jobs": 3168,
+      "healthy": 13
     },
     {
       "platform": "successfactors",
-      "companies": 8,
-      "jobs": 3552,
+      "companies": 9,
+      "jobs": 3558,
       "healthy": 8
     },
     {
@@ -4932,11 +5006,11 @@
     },
     {
       "date": "2026-09-16",
-      "scans": 132,
-      "successful": 110,
+      "scans": 134,
+      "successful": 112,
       "failed": 3,
-      "jobsSaved": 90340,
-      "avgDurationMs": 142463
+      "jobsSaved": 90993,
+      "avgDurationMs": 140817
     }
   ],
   "recentFailures": [
