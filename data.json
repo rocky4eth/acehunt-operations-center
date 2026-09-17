@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-17T15:06:38.783Z",
+  "generatedAt": "2026-09-17T16:04:07.862Z",
   "totals": {
     "companies": 132,
-    "activeJobs": 84414,
+    "activeJobs": 84412,
     "healthy": 91,
     "warning": 20,
     "broken": 21,
     "verifiedCatalogues": 96,
     "missingDescriptions": 670,
-    "missingLocations": 508,
-    "avgCriticalCompleteness": 88.5
+    "missingLocations": 506,
+    "avgCriticalCompleteness": 87.9
   },
   "companies": [
     {
@@ -157,43 +157,6 @@
       "location": 0,
       "postedDate": 0,
       "employmentType": 3,
-      "remote": 0,
-      "salary": 0
-    },
-    {
-      "sourceId": "eec3f0d0-60a1-420a-9650-707213897003",
-      "company": "Google Cloud (GCP)",
-      "domain": "cloud.google.com",
-      "platform": "custom",
-      "sourceStatus": "degraded",
-      "validationStatus": "unknown",
-      "validationConfidence": null,
-      "sourceJobCount": null,
-      "lastJobCount": 2,
-      "lastScanDurationMs": 95234,
-      "consecutiveFailures": 0,
-      "lastScanPhase": "completed",
-      "lastDiagnostic": null,
-      "lastScannedAt": "2026-09-17T09:07:33.572+00:00",
-      "lastSuccessAt": "2026-09-17T09:07:33.572+00:00",
-      "lastError": null,
-      "careerUrl": "https://jobs.google.com/about/",
-      "criticalCompleteness": 80,
-      "optionalCompleteness": 25,
-      "dataQuality": 69,
-      "missingDescriptions": 0,
-      "missingLocations": 2,
-      "enrichmentPriority": 104,
-      "health": "broken",
-      "jobs": 2,
-      "title": 2,
-      "externalId": 2,
-      "validUrl": 2,
-      "description": 2,
-      "fullDescription": 2,
-      "location": 0,
-      "postedDate": 0,
-      "employmentType": 2,
       "remote": 0,
       "salary": 0
     },
@@ -434,6 +397,43 @@
       "lastScanPhase": "provider_fetch",
       "lastDiagnostic": null,
       "lastScannedAt": "2026-09-17T08:53:03.316+00:00",
+      "lastSuccessAt": null,
+      "lastError": null,
+      "careerUrl": null,
+      "criticalCompleteness": 0,
+      "optionalCompleteness": 0,
+      "dataQuality": 0,
+      "missingDescriptions": 0,
+      "missingLocations": 0,
+      "enrichmentPriority": 100,
+      "health": "broken",
+      "jobs": 0,
+      "title": 0,
+      "externalId": 0,
+      "validUrl": 0,
+      "description": 0,
+      "fullDescription": 0,
+      "location": 0,
+      "postedDate": 0,
+      "employmentType": 0,
+      "remote": 0,
+      "salary": 0
+    },
+    {
+      "sourceId": "ff6438e9-65ee-4305-b0a3-67ee13aed30d",
+      "company": "Graphcore",
+      "domain": "graphcore.ai",
+      "platform": "unknown",
+      "sourceStatus": "pending",
+      "validationStatus": "unknown",
+      "validationConfidence": null,
+      "sourceJobCount": null,
+      "lastJobCount": null,
+      "lastScanDurationMs": null,
+      "consecutiveFailures": 0,
+      "lastScanPhase": null,
+      "lastDiagnostic": null,
+      "lastScannedAt": null,
       "lastSuccessAt": null,
       "lastError": null,
       "careerUrl": null,
@@ -4900,8 +4900,8 @@
   "platforms": [
     {
       "platform": "custom",
-      "companies": 20,
-      "jobs": 825,
+      "companies": 19,
+      "jobs": 823,
       "healthy": 3
     },
     {
@@ -4953,6 +4953,12 @@
       "healthy": 4
     },
     {
+      "platform": "unknown",
+      "companies": 4,
+      "jobs": 0,
+      "healthy": 0
+    },
+    {
       "platform": "directemployers",
       "companies": 3,
       "jobs": 21278,
@@ -4968,12 +4974,6 @@
       "platform": "lever",
       "companies": 3,
       "jobs": 401,
-      "healthy": 0
-    },
-    {
-      "platform": "unknown",
-      "companies": 3,
-      "jobs": 0,
       "healthy": 0
     },
     {
@@ -5234,19 +5234,19 @@
     },
     {
       "date": "2026-09-16",
-      "scans": 134,
+      "scans": 133,
       "successful": 112,
       "failed": 3,
-      "jobsSaved": 90993,
-      "avgDurationMs": 140817
+      "jobsSaved": 90992,
+      "avgDurationMs": 140973
     },
     {
       "date": "2026-09-17",
-      "scans": 141,
+      "scans": 140,
       "successful": 111,
       "failed": 6,
-      "jobsSaved": 90270,
-      "avgDurationMs": 148054
+      "jobsSaved": 90269,
+      "avgDurationMs": 148432
     }
   ],
   "recentFailures": [
