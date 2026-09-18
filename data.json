@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-18T23:06:04.939Z",
+  "generatedAt": "2026-09-18T23:13:19.211Z",
   "totals": {
     "companies": 135,
-    "activeJobs": 88340,
+    "activeJobs": 88601,
     "healthy": 98,
     "warning": 25,
     "broken": 12,
     "verifiedCatalogues": 103,
-    "missingDescriptions": 471,
+    "missingDescriptions": 472,
     "missingLocations": 445,
-    "avgCriticalCompleteness": 93
+    "avgCriticalCompleteness": 93.2
   },
   "companies": [
     {
@@ -605,6 +605,43 @@
       "salary": 22
     },
     {
+      "sourceId": "3bb92ee8-af58-4a2f-a5ef-23de45abf563",
+      "company": "PwC",
+      "domain": "pwc.co.uk",
+      "platform": "phenom",
+      "sourceStatus": "working",
+      "validationStatus": "unknown",
+      "validationConfidence": null,
+      "sourceJobCount": null,
+      "lastJobCount": 262,
+      "lastScanDurationMs": 7839,
+      "consecutiveFailures": 0,
+      "lastScanPhase": "completed",
+      "lastDiagnostic": null,
+      "lastScannedAt": "2026-09-18T23:08:42.329+00:00",
+      "lastSuccessAt": "2026-09-18T23:08:42.329+00:00",
+      "lastError": null,
+      "careerUrl": "https://jobs.pwc.co.uk/experienced/uk/en/search-results",
+      "criticalCompleteness": 99.8,
+      "optionalCompleteness": 50,
+      "dataQuality": 89.8,
+      "missingDescriptions": 2,
+      "missingLocations": 0,
+      "enrichmentPriority": 110,
+      "health": "warning",
+      "jobs": 262,
+      "title": 262,
+      "externalId": 262,
+      "validUrl": 262,
+      "description": 260,
+      "fullDescription": 260,
+      "location": 262,
+      "postedDate": 261,
+      "employmentType": 262,
+      "remote": 1,
+      "salary": 0
+    },
+    {
       "sourceId": "cd87b33a-27d4-499b-b176-ac2212bea63a",
       "company": "Arbitrum",
       "domain": "arbitrum.io",
@@ -751,43 +788,6 @@
       "employmentType": 980,
       "remote": 980,
       "salary": 229
-    },
-    {
-      "sourceId": "3bb92ee8-af58-4a2f-a5ef-23de45abf563",
-      "company": "PwC (UK)",
-      "domain": "pwc.co.uk",
-      "platform": "phenom",
-      "sourceStatus": "working",
-      "validationStatus": "unknown",
-      "validationConfidence": null,
-      "sourceJobCount": null,
-      "lastJobCount": 1,
-      "lastScanDurationMs": 48372,
-      "consecutiveFailures": 0,
-      "lastScanPhase": "completed",
-      "lastDiagnostic": null,
-      "lastScannedAt": "2026-09-18T05:23:30.722+00:00",
-      "lastSuccessAt": "2026-09-18T05:23:30.722+00:00",
-      "lastError": null,
-      "careerUrl": "https://jobs.pwc.co.uk/contractors/uk/en/home",
-      "criticalCompleteness": 80,
-      "optionalCompleteness": 50,
-      "dataQuality": 74,
-      "missingDescriptions": 1,
-      "missingLocations": 0,
-      "enrichmentPriority": 105,
-      "health": "warning",
-      "jobs": 1,
-      "title": 1,
-      "externalId": 1,
-      "validUrl": 1,
-      "description": 0,
-      "fullDescription": 0,
-      "location": 1,
-      "postedDate": 0,
-      "employmentType": 1,
-      "remote": 1,
-      "salary": 0
     },
     {
       "sourceId": "fc47dc0e-1817-4f76-b862-40d510f87c5c",
@@ -5072,7 +5072,7 @@
     {
       "platform": "phenom",
       "companies": 4,
-      "jobs": 906,
+      "jobs": 1167,
       "healthy": 0
     },
     {
@@ -5367,11 +5367,11 @@
     },
     {
       "date": "2026-09-18",
-      "scans": 154,
-      "successful": 126,
+      "scans": 155,
+      "successful": 127,
       "failed": 5,
-      "jobsSaved": 88579,
-      "avgDurationMs": 109489
+      "jobsSaved": 88840,
+      "avgDurationMs": 108833
     }
   ],
   "recentFailures": [
