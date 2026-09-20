@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-20T20:22:19.182Z",
+  "generatedAt": "2026-09-20T21:32:03.927Z",
   "totals": {
     "companies": 129,
-    "activeJobs": 89032,
-    "healthy": 99,
-    "warning": 26,
+    "activeJobs": 89133,
+    "healthy": 100,
+    "warning": 25,
     "broken": 4,
     "verifiedCatalogues": 104,
-    "missingDescriptions": 145,
+    "missingDescriptions": 107,
     "missingLocations": 595,
-    "avgCriticalCompleteness": 97.8
+    "avgCriticalCompleteness": 98
   },
   "companies": [
     {
@@ -270,43 +270,6 @@
       "employmentType": 153,
       "remote": 0,
       "salary": 0
-    },
-    {
-      "sourceId": "07041dcf-508e-4e22-ac27-8f1063f35836",
-      "company": "NatWest Group",
-      "domain": "natwestgroup.com",
-      "platform": "talemetry",
-      "sourceStatus": "working",
-      "validationStatus": "verified",
-      "validationConfidence": 1,
-      "sourceJobCount": 38,
-      "lastJobCount": 38,
-      "lastScanDurationMs": 13940,
-      "consecutiveFailures": 0,
-      "lastScanPhase": "completed",
-      "lastDiagnostic": null,
-      "lastScannedAt": "2026-09-20T05:38:37.679+00:00",
-      "lastSuccessAt": "2026-09-20T05:38:37.679+00:00",
-      "lastError": null,
-      "careerUrl": "https://jobs.natwestgroup.com/search/jobs?utm_source=natwestgroup.com&utm_medium=referral",
-      "criticalCompleteness": 80,
-      "optionalCompleteness": 86.8,
-      "dataQuality": 81.4,
-      "missingDescriptions": 38,
-      "missingLocations": 0,
-      "enrichmentPriority": 190,
-      "health": "warning",
-      "jobs": 38,
-      "title": 38,
-      "externalId": 38,
-      "validUrl": 38,
-      "description": 0,
-      "fullDescription": 0,
-      "location": 38,
-      "postedDate": 35,
-      "employmentType": 38,
-      "remote": 38,
-      "salary": 21
     },
     {
       "sourceId": "3bb92ee8-af58-4a2f-a5ef-23de45abf563",
@@ -3306,6 +3269,43 @@
       "salary": 1
     },
     {
+      "sourceId": "07041dcf-508e-4e22-ac27-8f1063f35836",
+      "company": "NatWest Group",
+      "domain": "natwestgroup.com",
+      "platform": "talemetry",
+      "sourceStatus": "working",
+      "validationStatus": "verified",
+      "validationConfidence": 1,
+      "sourceJobCount": 139,
+      "lastJobCount": 139,
+      "lastScanDurationMs": 316382,
+      "consecutiveFailures": 0,
+      "lastScanPhase": "completed",
+      "lastDiagnostic": null,
+      "lastScannedAt": "2026-09-20T21:22:33.501+00:00",
+      "lastSuccessAt": "2026-09-20T21:22:33.501+00:00",
+      "lastError": null,
+      "careerUrl": "https://jobs.natwestgroup.com/search/jobs",
+      "criticalCompleteness": 100,
+      "optionalCompleteness": 65.1,
+      "dataQuality": 93,
+      "missingDescriptions": 0,
+      "missingLocations": 0,
+      "enrichmentPriority": 0,
+      "health": "healthy",
+      "jobs": 139,
+      "title": 139,
+      "externalId": 139,
+      "validUrl": 139,
+      "description": 139,
+      "fullDescription": 139,
+      "location": 139,
+      "postedDate": 125,
+      "employmentType": 139,
+      "remote": 51,
+      "salary": 47
+    },
+    {
       "sourceId": "fd32d438-aa79-43bc-9087-2f118f468786",
       "company": "Deliveroo",
       "domain": "deliveroo.co.uk",
@@ -4986,6 +4986,12 @@
       "healthy": 0
     },
     {
+      "platform": "talemetry",
+      "companies": 1,
+      "jobs": 139,
+      "healthy": 1
+    },
+    {
       "platform": "hrdepartment",
       "companies": 1,
       "jobs": 118,
@@ -5025,12 +5031,6 @@
       "platform": "njoyn",
       "companies": 1,
       "jobs": 66,
-      "healthy": 0
-    },
-    {
-      "platform": "talemetry",
-      "companies": 1,
-      "jobs": 38,
       "healthy": 0
     },
     {
@@ -5149,14 +5149,21 @@
     },
     {
       "date": "2026-09-20",
-      "scans": 158,
-      "successful": 138,
-      "failed": 6,
-      "jobsSaved": 86296,
-      "avgDurationMs": 82511
+      "scans": 163,
+      "successful": 142,
+      "failed": 7,
+      "jobsSaved": 86650,
+      "avgDurationMs": 82544
     }
   ],
   "recentFailures": [
+    {
+      "company": "NatWest Group",
+      "platform": "talemetry",
+      "at": "2026-09-20T21:14:18.004+00:00",
+      "phase": "enrichment",
+      "error": "Scan failed"
+    },
     {
       "company": "NG Bailey",
       "platform": "inploi",
@@ -5287,13 +5294,6 @@
       "company": "GHD",
       "platform": "oracle",
       "at": "2026-09-16T07:11:16.811+00:00",
-      "phase": "provider_fetch",
-      "error": "Scan failed"
-    },
-    {
-      "company": "Heathrow Airport",
-      "platform": "oracle",
-      "at": "2026-09-16T04:40:32.923+00:00",
       "phase": "provider_fetch",
       "error": "Scan failed"
     }
