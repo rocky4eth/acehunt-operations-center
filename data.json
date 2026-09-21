@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-21T10:43:42.532Z",
+  "generatedAt": "2026-09-21T19:30:05.753Z",
   "totals": {
     "companies": 129,
-    "activeJobs": 84641,
+    "activeJobs": 87640,
     "healthy": 102,
-    "warning": 22,
-    "broken": 5,
+    "warning": 23,
+    "broken": 4,
     "verifiedCatalogues": 106,
     "missingDescriptions": 112,
     "missingLocations": 588,
@@ -120,43 +120,6 @@
       "location": 0,
       "postedDate": 0,
       "employmentType": 1,
-      "remote": 0,
-      "salary": 0
-    },
-    {
-      "sourceId": "d555c48a-8717-45ae-8fae-655e5853fb64",
-      "company": "CGI",
-      "domain": "cgi.com",
-      "platform": "njoyn",
-      "sourceStatus": "no_jobs",
-      "validationStatus": "unknown",
-      "validationConfidence": null,
-      "sourceJobCount": null,
-      "lastJobCount": 116,
-      "lastScanDurationMs": 313324,
-      "consecutiveFailures": 0,
-      "lastScanPhase": "completed",
-      "lastDiagnostic": null,
-      "lastScannedAt": "2026-09-21T09:41:35.222+00:00",
-      "lastSuccessAt": "2026-09-21T09:41:35.222+00:00",
-      "lastError": null,
-      "careerUrl": "https://cgi.njoyn.com/corp/xweb/xweb.asp?CLID=21001&page=joblisting&lang=1",
-      "criticalCompleteness": 100,
-      "optionalCompleteness": 25,
-      "dataQuality": 85,
-      "missingDescriptions": 0,
-      "missingLocations": 0,
-      "enrichmentPriority": 100,
-      "health": "broken",
-      "jobs": 116,
-      "title": 116,
-      "externalId": 116,
-      "validUrl": 116,
-      "description": 116,
-      "fullDescription": 0,
-      "location": 116,
-      "postedDate": 0,
-      "employmentType": 116,
       "remote": 0,
       "salary": 0
     },
@@ -640,6 +603,43 @@
       "employmentType": 21,
       "remote": 20,
       "salary": 7
+    },
+    {
+      "sourceId": "d555c48a-8717-45ae-8fae-655e5853fb64",
+      "company": "CGI",
+      "domain": "cgi.com",
+      "platform": "njoyn",
+      "sourceStatus": "working",
+      "validationStatus": "unknown",
+      "validationConfidence": null,
+      "sourceJobCount": null,
+      "lastJobCount": 50,
+      "lastScanDurationMs": 114635,
+      "consecutiveFailures": 0,
+      "lastScanPhase": "completed",
+      "lastDiagnostic": null,
+      "lastScannedAt": "2026-09-21T18:47:36.774+00:00",
+      "lastSuccessAt": "2026-09-21T18:47:36.774+00:00",
+      "lastError": null,
+      "careerUrl": "https://cgi.njoyn.com/corp/xweb/xweb.asp?NTKN=c&clid=21001&Page=joblisting",
+      "criticalCompleteness": 100,
+      "optionalCompleteness": 28.7,
+      "dataQuality": 85.7,
+      "missingDescriptions": 0,
+      "missingLocations": 0,
+      "enrichmentPriority": 100,
+      "health": "warning",
+      "jobs": 3115,
+      "title": 3115,
+      "externalId": 3115,
+      "validUrl": 3115,
+      "description": 3115,
+      "fullDescription": 486,
+      "location": 3115,
+      "postedDate": 426,
+      "employmentType": 3115,
+      "remote": 0,
+      "salary": 30
     },
     {
       "sourceId": "6314410f-b880-419a-930d-51bd8f41f3d2",
@@ -4896,6 +4896,12 @@
       "healthy": 1
     },
     {
+      "platform": "njoyn",
+      "companies": 1,
+      "jobs": 3115,
+      "healthy": 0
+    },
+    {
       "platform": "soprasteria",
       "companies": 1,
       "jobs": 1964,
@@ -4996,12 +5002,6 @@
       "companies": 1,
       "jobs": 118,
       "healthy": 1
-    },
-    {
-      "platform": "njoyn",
-      "companies": 1,
-      "jobs": 116,
-      "healthy": 0
     },
     {
       "platform": "networkrail",
@@ -5157,14 +5157,21 @@
     },
     {
       "date": "2026-09-21",
-      "scans": 141,
-      "successful": 125,
-      "failed": 1,
-      "jobsSaved": 82238,
-      "avgDurationMs": 98964
+      "scans": 147,
+      "successful": 127,
+      "failed": 2,
+      "jobsSaved": 82366,
+      "avgDurationMs": 102945
     }
   ],
   "recentFailures": [
+    {
+      "company": "CGI",
+      "platform": "njoyn",
+      "at": "2026-09-21T18:32:27.57+00:00",
+      "phase": "enrichment",
+      "error": "Scan failed"
+    },
     {
       "company": "Cundall",
       "platform": "cundall",
@@ -5295,13 +5302,6 @@
       "company": "Kainos",
       "platform": "phenom",
       "at": "2026-09-17T04:31:34.269+00:00",
-      "phase": "provider_fetch",
-      "error": "Scan failed"
-    },
-    {
-      "company": "Bentley Systems",
-      "platform": "successfactors",
-      "at": "2026-09-16T08:08:43.947+00:00",
       "phase": "provider_fetch",
       "error": "Scan failed"
     }
